@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Learn Academy</string>
+    <string name="item_1">alphabets</string>
+    <string name="item_2">numbers</string>
+    <string name="item_3">colors</string>
+    <string name="item_4">shapes</string>
+    <string name="item_5">settings</string>
+    <string name="title_activity_item_four_fragment">ItemFourFragment</string>
+
+</resources>

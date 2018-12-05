@@ -1,0 +1,311 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.truiton.learnacademy.ItemTwoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--  M to T  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Mm" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Aa" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Tt" />
+                </LinearLayout>
+
+                <!--  Y to K  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Yy" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Ss" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Kk" />
+                </LinearLayout>
+
+                <!--  N to P  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Nn" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Ll" />
+
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Pp" />
+
+                </LinearLayout>
+
+                <!--  E to G  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Ee" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Bb" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Gg" />
+
+                </LinearLayout>
+
+                <!--  D to W  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Dd" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Hh" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Ww" />
+                </LinearLayout>
+
+                <!--  I to R  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Ii" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Uu" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style2"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Rr" />
+
+                </LinearLayout>
+
+                <!--  O to Ng  -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="Oo" />
+                    <Button
+                        android:textSize="40dp"
+                        android:layout_margin="5sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/color_style"
+                        android:layout_weight="1"
+                        android:id="@+id/alphabet_bisaya20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:text="NGng" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
